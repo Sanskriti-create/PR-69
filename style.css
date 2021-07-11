@@ -1,0 +1,64 @@
+#welcome {
+    margin-top: 50px;
+}
+
+marquee {
+    background-color: coral;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.life_main {
+    border: 1px solid grey;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none;
+    width: 40%;
+    margin-bottom: 10%;
+}
+
+.life_main img {
+    width: 100%;
+}
+
+.life_main hr {
+    width: 230px;
+}
+
+.life_main h5
+{
+    margin-left: 20px;
+    color: green;
+    font-size: 20px;
+}
+.life_main p {
+    margin-left: 20px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display:table;
+}
+
+.movie_main {
+    font-size: 20px;
+    padding: 6px 22px;
+    margin-bottom: 15px;
+    border-radius: 10;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_main i {
+    float: right;
+}
+
+.movie_text span {
+    color: #ff7700;
+}
+
+
